@@ -6,6 +6,7 @@ use colors::Colors;
 use git::get_branch;
 
 fn main() {
+    print!("\n");
     let branch = match get_branch() {
         Ok(b) => b + "  ",
         Err(_) => "None".to_string(),

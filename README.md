@@ -21,6 +21,8 @@ This simple Rust program displays the current Git branch and working directory i
    cargo run
     ```
    
+4. Add executable file path to $PATH
+   
 ## Requirements
 - Rust
 - Lazy Static (lazy_static)
